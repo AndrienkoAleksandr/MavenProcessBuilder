@@ -15,7 +15,7 @@ public class PropertiesReader {
             if (inputStream != null) {
                 properties.load(inputStream);
             } else {
-                throw new FileNotFoundException("Sorry, can't find file " + PROP_FILE);
+                throw new FileNotFoundException("Sorry, cann't find file " + PROP_FILE);
             }
         } catch (IOException e) {
             e.printStackTrace();
